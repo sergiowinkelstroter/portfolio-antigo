@@ -1,6 +1,6 @@
 # Meu portfolio
 
-<img src="./assets/portfolio.png"/>
+<img src="/assets/portfolio.png"/>
 
 ## 🚀 Tecnologias
 
