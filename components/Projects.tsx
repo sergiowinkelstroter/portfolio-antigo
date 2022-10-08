@@ -16,6 +16,7 @@ import CadastroFirebaseImage from "/public/assets/cadastro-usuario.png";
 import CurrencyConverterImage from "/public/assets/currency-converter.png";
 import MoveItImage from "/public/assets/moveit.png";
 import PokedexImage from "/public/assets/pokedex.png";
+import ShoppingCartImage from "/public/assets/home-shopping.png";
 
 export const Projects = () => {
   return (
@@ -38,6 +39,15 @@ export const Projects = () => {
           },
         }}
       >
+        <SwiperSlide>
+          <ProjectItem
+            title="Shopping Cart"
+            image={ShoppingCartImage}
+            description="Projeto desenvolvido em ReactJS, com o objetivo de aprimorar meus conhecimentos em ContextAPI e useReducer "
+            repo={"https://github.com/sergiowinkelstroter/shopping-cart"}
+            demo={"https://shopping-cart-winkelstrotersergio.vercel.app/"}
+          />
+        </SwiperSlide>
         <SwiperSlide>
           <ProjectItem
             title="Landing Page"
