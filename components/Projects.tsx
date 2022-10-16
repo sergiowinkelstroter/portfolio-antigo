@@ -17,6 +17,7 @@ import CurrencyConverterImage from "/public/assets/currency-converter.png";
 import MoveItImage from "/public/assets/moveit.png";
 import PokedexImage from "/public/assets/pokedex.png";
 import ShoppingCartImage from "/public/assets/home-shopping.png";
+import PrimeCarImage from "/public/assets/primecar.png";
 
 export const Projects = () => {
   return (
@@ -50,7 +51,7 @@ export const Projects = () => {
         </SwiperSlide>
         <SwiperSlide>
           <ProjectItem
-            title="Landing Page"
+            title="Travel Landing Page"
             image={TravelImage}
             description="LandingPage desenvolvida em NextJS, com TailwindCSS."
             repo={"https://github.com/sergiowinkelstroter/travel-page"}
@@ -88,6 +89,15 @@ export const Projects = () => {
               "https://github.com/sergiowinkelstroter/NLWeSports-Ignite-web"
             }
             demo={"https://nlw-e-sports-ignite-web.vercel.app/"}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ProjectItem
+            title="PrimeCar Landing Page"
+            image={PrimeCarImage}
+            description="Landing Page desenvolvida em ReactJS e TailwindCSS"
+            repo={"https://github.com/sergiowinkelstroter/primeCar-landingpage"}
+            demo={"primecar.vercel.app"}
           />
         </SwiperSlide>
         <SwiperSlide>

@@ -33,7 +33,7 @@ export const About = () => {
               >
                 Rocketseat
               </a>{" "}
-              e continuo buscando apredizado atraves do Youtube e outros sites.
+              e continuo buscando aprendizado através do YouTube e outros sites.
               Também estou cursando Sistemas para Internet pela Unicesumar.
             </p>
             <a
