@@ -97,7 +97,7 @@ export const Projects = () => {
             image={PrimeCarImage}
             description="Landing Page desenvolvida em ReactJS e TailwindCSS"
             repo={"https://github.com/sergiowinkelstroter/primeCar-landingpage"}
-            demo={"primecar.vercel.app"}
+            demo={"https://primecar.vercel.app/"}
           />
         </SwiperSlide>
         <SwiperSlide>
