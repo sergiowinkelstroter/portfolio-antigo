@@ -2,6 +2,7 @@ import Head from "next/head";
 import { About } from "../components/About";
 import { Contact } from "../components/Contact";
 import { Main } from "../components/Main";
+import { Footer } from "../components/Footer";
 
 import { Skills } from "../components/Skills";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <About />
       <Skills />
       <Contact />
+      <Footer />
     </div>
   );
 }

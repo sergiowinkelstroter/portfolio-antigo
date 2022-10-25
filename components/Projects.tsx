@@ -18,6 +18,7 @@ import MoveItImage from "/public/assets/moveit.png";
 import PokedexImage from "/public/assets/pokedex.png";
 import ShoppingCartImage from "/public/assets/home-shopping.png";
 import PrimeCarImage from "/public/assets/primecar.png";
+import RocketNotesImage from "/public/assets/Capa.png";
 
 export const Projects = () => {
   return (
@@ -130,6 +131,15 @@ export const Projects = () => {
             Api do The Movie DB. Desenvolvido em ReactJS."
             repo={"https://github.com/sergiowinkelstroter/Movie-List"}
             demo={"https://movie-list-vert.vercel.app/"}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ProjectItem
+            title="Rocket Notes"
+            image={RocketNotesImage}
+            description="App não funcional para criação de notas"
+            repo={"https://github.com/sergiowinkelstroter/rocket-notes"}
+            demo={"https://rocket-notes-winkelstrotersergio.vercel.app/"}
           />
         </SwiperSlide>
         <SwiperSlide>
