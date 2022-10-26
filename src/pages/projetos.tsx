@@ -1,5 +1,6 @@
 import { Projects } from "../components/Projects";
 import Head from "next/head";
+import { ProjectsData } from "../data/ProjectsData";
 
 export default function Projetos() {
   return (
@@ -17,4 +18,11 @@ export default function Projetos() {
       <Projects />
     </>
   );
+}
+
+export async function getStaticProps() {
+  const data = ProjectsData;
+  return {
+    props: { data },
+  };
 }
