@@ -17,7 +17,7 @@ export const ProjectItem = ({
 }: ProjectItemProps) => {
   return (
     <div
-      className="w-[300px] md:w-[380px] h-[550px]  dark:bg-[#27303d]   p-5 m-auto mt-32 flex flex-col justify-evenly items-center shadow-2xl rounded-xl
+      className="w-[300px] md:w-[350px] lg:w-[380px] h-[500px]  dark:bg-[#27303d]   p-5 m-auto mt-32 flex flex-col justify-evenly items-center shadow-2xl rounded-xl hover:scale-105 ease-in duration-300 hover:cursor-pointer
     "
     >
       <h3 className="text-2xl mb-6">{title}</h3>
