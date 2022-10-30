@@ -12,6 +12,7 @@ import PokedexImage from "/public/assets/pokedex.png";
 import ShoppingCartImage from "/public/assets/home-shopping.png";
 import PrimeCarImage from "/public/assets/primecar.png";
 import RocketNotesImage from "/public/assets/Capa.png";
+import ChatAppImage from "/public/assets/chatApp.png";
 
 export const ProjectsData = [
   {
@@ -48,6 +49,16 @@ export const ProjectsData = [
       "Projeto desenvolvido no evento Ignite-Lab da Rocketseat, utilizando ReactJS, Vite, TailwindCSS, GraphCMS e outras tecnologias.",
     repo: "https://github.com/sergiowinkelstroter/ignite-lab",
     demo: "https://ignite-lab-tan.vercel.app/",
+  },
+  {
+    id: "15",
+    title: "Chat App",
+    image: ChatAppImage,
+    description:
+      "Um aplicativo de bate-papo full-stack usando ReactJs no front-end e Firebase para a tecnologia de back-end. ",
+    repo: "https://github.com/sergiowinkelstroter/chat-app",
+
+    demo: "https://chat-app-winkelstrotersergio.vercel.app/",
   },
   {
     id: "5",
