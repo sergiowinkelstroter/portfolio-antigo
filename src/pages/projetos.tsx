@@ -19,10 +19,3 @@ export default function Projetos() {
     </>
   );
 }
-
-export async function getStaticProps() {
-  const data = ProjectsData;
-  return {
-    props: { data },
-  };
-}

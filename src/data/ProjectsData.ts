@@ -13,6 +13,7 @@ import ShoppingCartImage from "/public/assets/home-shopping.png";
 import PrimeCarImage from "/public/assets/primecar.png";
 import RocketNotesImage from "/public/assets/Capa.png";
 import ChatAppImage from "/public/assets/chatApp.png";
+import ClimaImage from "/public/assets/clima.png";
 
 export const ProjectsData = [
   {
@@ -40,6 +41,15 @@ export const ProjectsData = [
       "Projeto desenvolvido em ReactJS, utlizando typescript e firebase.",
     repo: "https://github.com/sergiowinkelstroter/gallery",
     demo: "https://gallery-tan-nu.vercel.app/",
+  },
+  {
+    id: "16",
+    title: "Previsão do tempo",
+    image: ClimaImage,
+    description:
+      "Projeto desenvolvido em ReactJS, utilizando o framework TailwindCSS e a biblioteca PhosPhor Icons. Consumindo os dados da Weather Api !",
+    repo: "https://github.com/sergiowinkelstroter/prev-tempo",
+    demo: "https://prev-tempo-sage.vercel.app/",
   },
   {
     id: "4",
