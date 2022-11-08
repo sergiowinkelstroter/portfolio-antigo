@@ -14,6 +14,7 @@ import PrimeCarImage from "/public/assets/primecar.png";
 import RocketNotesImage from "/public/assets/Capa.png";
 import ChatAppImage from "/public/assets/chatApp.png";
 import ClimaImage from "/public/assets/clima.png";
+import SimuladorInvestImage from "/public/assets/simulador-invest.png";
 
 export const ProjectsData = [
   {
@@ -79,6 +80,14 @@ export const ProjectsData = [
     repo: "https://github.com/sergiowinkelstroter/NLWeSports-Ignite-web",
 
     demo: "https://nlw-e-sports-ignite-web.vercel.app/",
+  },
+  {
+    id: "17",
+    title: "Simulador de investimentos",
+    image: SimuladorInvestImage,
+    description: "Simulador de investimento feito em ReactJS e TailwindCSS",
+    repo: "https://github.com/sergiowinkelstroter/simulador-investimento",
+    demo: "https://simulador-investimento-one.vercel.app/",
   },
   {
     id: "6",
