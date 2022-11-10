@@ -1,5 +1,5 @@
 import TravelImage from "/public/assets/TravelImage.png";
-import GaleriaImage from "/public/assets/galeria.png";
+import PearsonHardmanImage from "/public/assets/pearsonHardam.png";
 import NLWeSportsImage from "/public/assets/nlwsEsports.png";
 import IgniteLabImage from "/public/assets/ignite-lab.png";
 import GitHubProfileImage from "/public/assets/github-profile.png";
@@ -9,40 +9,31 @@ import CadastroFirebaseImage from "/public/assets/cadastro-usuario.png";
 import CurrencyConverterImage from "/public/assets/currency-converter.png";
 import MoveItImage from "/public/assets/moveit.png";
 import PokedexImage from "/public/assets/pokedex.png";
-import ShoppingCartImage from "/public/assets/home-shopping.png";
 import PrimeCarImage from "/public/assets/primecar.png";
 import RocketNotesImage from "/public/assets/Capa.png";
-import ChatAppImage from "/public/assets/chatApp.png";
+
 import ClimaImage from "/public/assets/clima.png";
 import SimuladorInvestImage from "/public/assets/simulador-invest.png";
 
 export const ProjectsData = [
   {
     id: "1",
-    title: "Shopping Cart",
-    image: ShoppingCartImage,
+    title: "Pearson Hardman LandingPage",
+    image: PearsonHardmanImage,
     description:
-      "Projeto desenvolvido em ReactJS, com o objetivo de aprimorar meus conhecimentos em ContextAPI e useReducer ",
-    repo: "https://github.com/sergiowinkelstroter/shopping-cart",
-    demo: "https://shopping-cart-winkelstrotersergio.vercel.app/",
+      "Projeto desenvolvido durante o evento FrontWeek com HTML, CSS e JavaScript",
+    repo: "https://github.com/sergiowinkelstroter/FrontWeek-PearsonHardman",
+    demo: "https://pearson-hardman-winkelstrotersergio.vercel.app/",
   },
   {
     id: "2",
-    title: "Travel Landing Page",
+    title: "Travel LandingPage",
     image: TravelImage,
     description: "LandingPage desenvolvida em NextJS, com TailwindCSS.",
     repo: "https://github.com/sergiowinkelstroter/travel-page",
     demo: "https://travel-page-flame.vercel.app/",
   },
-  {
-    id: "3",
-    title: "Galeria de fotos",
-    image: GaleriaImage,
-    description:
-      "Projeto desenvolvido em ReactJS, utlizando typescript e firebase.",
-    repo: "https://github.com/sergiowinkelstroter/gallery",
-    demo: "https://gallery-tan-nu.vercel.app/",
-  },
+
   {
     id: "16",
     title: "Previsão do tempo",
@@ -61,16 +52,7 @@ export const ProjectsData = [
     repo: "https://github.com/sergiowinkelstroter/ignite-lab",
     demo: "https://ignite-lab-tan.vercel.app/",
   },
-  {
-    id: "15",
-    title: "Chat App",
-    image: ChatAppImage,
-    description:
-      "Um aplicativo de bate-papo full-stack usando ReactJs no front-end e Firebase para a tecnologia de back-end. ",
-    repo: "https://github.com/sergiowinkelstroter/chat-app",
 
-    demo: "https://chat-app-winkelstrotersergio.vercel.app/",
-  },
   {
     id: "5",
     title: "NLW eSports",

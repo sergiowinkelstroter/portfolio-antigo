@@ -1,6 +1,5 @@
 import { Projects } from "../components/Projects";
 import Head from "next/head";
-import { ProjectsData } from "../data/ProjectsData";
 
 export default function Projetos() {
   return (
@@ -15,6 +14,7 @@ export default function Projetos() {
           rel="stylesheet"
         />
       </Head>
+
       <Projects />
     </>
   );

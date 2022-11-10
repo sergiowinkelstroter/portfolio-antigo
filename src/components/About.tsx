@@ -22,23 +22,17 @@ export const About = () => {
           </div>
           <div className="mt-10 px-4 flex flex-col gap-6 items-center">
             <p>
-              Olá, meu nome é Sergio Winkelstroter. Prazer em te conhecer! Estou
-              a procura da minha primeira experiência como Desenvolvedor
-              Front-end. Conclui recentemente o curso Discover da{" "}
-              <a
-                href="https://www.rocketseat.com.br/"
-                target="_blank"
-                className="text-blue-600 hover:text-blue-900"
-                rel="noreferrer"
-              >
-                Rocketseat
-              </a>{" "}
-              e continuo buscando aprendizado através do YouTube e outros sites.
-              Também estou cursando Sistemas para Internet pela Unicesumar.
+              Olá, meu nome é Sergio Winkelstroter. Prazer em te conhecer! Meu
+              inicio no mundo da programação se deu ha quase 1 ano, quando
+              entrei na faculdade de Sistema para Internet. Desde então fiz
+              alguns cursos, participei também de muitos eventos online e
+              desenvolvi alguns projetos web. Estou na procura da minha primeira
+              experiência profissional e quero me aprofundar ainda mais no
+              desenvolvimento Web e Mobile.
             </p>
             <a
               download
-              href="/Profile.pdf"
+              href="/CV.pdf"
               className="bg-blue-600 w-40 h-10 p-2 rounded-lg text-white hover:bg-blue-900 hover:cursor-pointer"
             >
               Baixar curriculo
