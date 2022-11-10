@@ -1,5 +1,3 @@
-import "swiper/css/navigation";
-import "swiper/css";
 import { ProjectItem } from "./ProjectItem";
 import { ProjectsData } from "../data/ProjectsData";
 
