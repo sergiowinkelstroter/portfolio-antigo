@@ -15,6 +15,7 @@ export const About = () => {
           <div className="md:w-[80%]">
             <Image
               src={perfilImg}
+              alt=""
               width={300}
               height={200}
               className="rounded-md "

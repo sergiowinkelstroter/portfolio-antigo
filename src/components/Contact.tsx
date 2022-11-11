@@ -14,7 +14,7 @@ export const Contact = () => {
         <h1>Contato</h1>
 
         <div className="flex flex-col  md:grid md:grid-cols-2 mt-12">
-          <Image src={ContactImage} className="rounded-lg" />
+          <Image src={ContactImage} className="rounded-lg" alt="" />
           <div className="flex flex-col items-center justify-center mt-10 md:mt-0">
             <div className="w-[250px] flex items-center  mb-12">
               <BsTelephone size={28} />

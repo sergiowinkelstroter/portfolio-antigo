@@ -41,6 +41,7 @@ export const NavBar = () => {
         <Link href="/">
           <Image
             src="/logo.png"
+            alt=""
             width={120}
             height={90}
             className="hover:opacity-80 hover:cursor-pointer"
@@ -98,7 +99,7 @@ export const NavBar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <a href="">
-                  <Image src="/logo.png" width={70} height={70} />
+                  <Image src="/logo.png" width={70} height={70} alt="" />
                 </a>
               </Link>
               <div

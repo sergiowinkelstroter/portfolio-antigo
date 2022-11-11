@@ -15,7 +15,7 @@ export const Footer = () => {
     <div className="border-t-2 border-blue-600 shadow-xl flex flex-col">
       <div className="flex  justify-between items-center m-7">
         <div className="hidden md:block">
-          <Image src="/logo.png" width={100} height={100} />
+          <Image src="/logo.png" width={100} height={100} alt="" />
         </div>
         <div>
           <ul className="flex gap-4">

@@ -22,7 +22,7 @@ export const ProjectItem = ({
     >
       <h3 className="text-2xl mb-6">{title}</h3>
       <div className=" flex flex-col justify-center items-center gap-5">
-        <Image src={image} className="rounded-lg " />
+        <Image src={image} className="rounded-lg" alt="" />
         <p>{description}</p>
       </div>
       <div className="flex justify-center gap-2 mt-4 flex-col md:flex-row">
