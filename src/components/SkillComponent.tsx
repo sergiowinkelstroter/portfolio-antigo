@@ -12,7 +12,9 @@ export const SkillComponent = (props: SkillComponentProps) => {
       <h3 className="text-xl ">{props.title}</h3>
 
       <div className="flex flex-col mt-8 gap-4 text-start">
-        <Image src={props.image} width={200} height={220} alt="" />
+        <div className="m-auto">
+          <Image src={props.image} width={200} height={220} alt="" />
+        </div>
         <p className="text-sm hidden md:flex">{props.description}</p>
       </div>
     </div>

@@ -98,9 +98,7 @@ export const NavBar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <a href="">
-                  <Image src="/logo.png" width={70} height={70} alt="" />
-                </a>
+                <Image src="/logo.png" width={70} height={70} alt="" />
               </Link>
               <div
                 onClick={handleNav}

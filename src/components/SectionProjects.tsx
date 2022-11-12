@@ -57,7 +57,7 @@ export const SectionProjects = () => {
           ))}
         </div>
         <div className="flex items-center gap-2 m-auto hover:text-blue-600 transition-colors">
-          <Link href="/projetos">Ver mais projetos</Link>
+          <Link href={"/projetos"}>Ver mais projetos</Link>
           <AiOutlineArrowRight />
         </div>
       </div>

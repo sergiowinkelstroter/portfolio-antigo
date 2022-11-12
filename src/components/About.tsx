@@ -12,7 +12,7 @@ export const About = () => {
           <h1>Sobre mim</h1>
         </div>
         <div className="md:grid md:grid-cols-2">
-          <div className="md:w-[80%]">
+          <div className="md:w-[80%] m-auto">
             <Image
               src={perfilImg}
               alt=""
