@@ -11,7 +11,7 @@ import MoveItImage from "/public/assets/moveit.png";
 import PokedexImage from "/public/assets/pokedex.png";
 import PrimeCarImage from "/public/assets/primecar.png";
 import RocketNotesImage from "/public/assets/Capa.png";
-
+import BlogAxiosImage from "/public/assets/blog-axios.png";
 import ClimaImage from "/public/assets/clima.png";
 import SimuladorInvestImage from "/public/assets/simulador-invest.png";
 
@@ -35,7 +35,7 @@ export const ProjectsData = [
   },
 
   {
-    id: "16",
+    id: "3",
     title: "Previsão do tempo",
     image: ClimaImage,
     description:
@@ -64,7 +64,7 @@ export const ProjectsData = [
     demo: "https://nlw-e-sports-ignite-web.vercel.app/",
   },
   {
-    id: "17",
+    id: "6",
     title: "Simulador de investimentos",
     image: SimuladorInvestImage,
     description: "Simulador de investimento feito em ReactJS e TailwindCSS",
@@ -72,7 +72,7 @@ export const ProjectsData = [
     demo: "https://simulador-investimento-one.vercel.app/",
   },
   {
-    id: "6",
+    id: "7",
     title: "PrimeCar Landing Page",
     image: PrimeCarImage,
     description: "Landing Page desenvolvida em ReactJS e TailwindCSS",
@@ -80,7 +80,7 @@ export const ProjectsData = [
     demo: "https://primecar.vercel.app/",
   },
   {
-    id: "7",
+    id: "8",
     title: "GitHub Profile",
     image: GitHubProfileImage,
     description:
@@ -89,7 +89,7 @@ export const ProjectsData = [
     demo: "https://github-profile-eight.vercel.app/",
   },
   {
-    id: "8",
+    id: "9",
     title: "Autenticação social Google",
     image: AuthGoogleImage,
     description:
@@ -98,7 +98,7 @@ export const ProjectsData = [
     demo: "https://auth-google-jn3ha6wyj-winkelstrotersergio.vercel.app/",
   },
   {
-    id: "9",
+    id: "10",
     title: "Movie List",
     image: MovieListImage,
     description:
@@ -107,7 +107,7 @@ export const ProjectsData = [
     demo: "https://movie-list-vert.vercel.app/",
   },
   {
-    id: "10",
+    id: "11",
     title: "Rocket Notes",
     image: RocketNotesImage,
     description: "App não funcional para criação de notas",
@@ -115,7 +115,7 @@ export const ProjectsData = [
     demo: "https://rocket-notes-winkelstrotersergio.vercel.app/",
   },
   {
-    id: "11",
+    id: "12",
     title: "Cadastro - Firebase",
     image: CadastroFirebaseImage,
     description:
@@ -124,8 +124,17 @@ export const ProjectsData = [
     demo: "https://cadastro-firebase.vercel.app/",
   },
   {
-    id: "12",
-    title: "Coversor de moedas",
+    id: "13",
+    title: "Blog",
+    image: BlogAxiosImage,
+    description:
+      "Projeto desenvolvido em ReactJS, utilizando dados da api JSONPlaceholder.",
+    repo: "https://github.com/sergiowinkelstroter/blog-axios",
+    demo: "https://blog-axios.vercel.app/",
+  },
+  {
+    id: "14",
+    title: "Conversor de moedas",
     image: CurrencyConverterImage,
     description:
       "Projeto desenvolvido em ReactJS, utilizando dados da api Fixer.io",
@@ -133,7 +142,7 @@ export const ProjectsData = [
     demo: "https://currency-converter-drab.vercel.app/",
   },
   {
-    id: "13",
+    id: "15",
     title: "Move It",
     image: MoveItImage,
     description:
@@ -142,7 +151,7 @@ export const ProjectsData = [
     demo: "https://mymoveit-tau.vercel.app/",
   },
   {
-    id: "14",
+    id: "16",
     title: "Pokedex",
     image: PokedexImage,
     description:
