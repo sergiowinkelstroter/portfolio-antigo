@@ -14,6 +14,7 @@ import RocketNotesImage from "/public/assets/Capa.png";
 import BlogAxiosImage from "/public/assets/blog-axios.png";
 import ClimaImage from "/public/assets/clima.png";
 import SimuladorInvestImage from "/public/assets/simulador-invest.png";
+import FormMultiImage from "/public/assets/form-multistep.png";
 
 export const ProjectsData = [
   {
@@ -158,5 +159,14 @@ export const ProjectsData = [
       "Projeto desenvolvido em HTML, CSS e Javascript, consumindo a API do PokéAPI.",
     repo: "https://github.com/sergiowinkelstroter/pokedex",
     demo: "https://pokedex-liard-delta.vercel.app/",
+  },
+  {
+    id: "18",
+    title: "Form MultiStep",
+    image: FormMultiImage,
+    description:
+      "Projeto desenvolvido em ReactJs, com TypeScript e React Icons.",
+    repo: "https://github.com/sergiowinkelstroter/Form-MultiStep",
+    demo: "https://form-multi-step.vercel.app/",
   },
 ];
