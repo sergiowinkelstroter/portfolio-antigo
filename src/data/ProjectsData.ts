@@ -15,6 +15,9 @@ import BlogAxiosImage from "/public/assets/blog-axios.png";
 import ClimaImage from "/public/assets/clima.png";
 import SimuladorInvestImage from "/public/assets/simulador-invest.png";
 import FormMultiImage from "/public/assets/form-multistep.png";
+import FormDarkLightImage from "/public/assets/form-dark-light.png";
+import CountDownImage from "/public/assets/countdown-d.png";
+import GeradorNumeros from "/public/assets/gerador-numeros.png";
 
 export const ProjectsData = [
   {
@@ -65,6 +68,14 @@ export const ProjectsData = [
     demo: "https://nlw-e-sports-ignite-web.vercel.app/",
   },
   {
+    id: "20",
+    title: "Gerador de numeros",
+    image: GeradorNumeros,
+    description: "Projeto desenvolvido em HTML,CSS e JavaScript",
+    repo: "https://github.com/sergiowinkelstroter/number-generator",
+    demo: "https://number-generator-phi.vercel.app/",
+  },
+  {
     id: "6",
     title: "Simulador de investimentos",
     image: SimuladorInvestImage,
@@ -100,6 +111,23 @@ export const ProjectsData = [
   },
   {
     id: "10",
+    title: "Formulario Dark/Light",
+    image: FormDarkLightImage,
+    description:
+      "Formulario com tema dark/light desenvolvido em HTML,CSS e JavaScript",
+    repo: "https://github.com/sergiowinkelstroter/dark-light-form",
+    demo: "https://dark-light-form-delta.vercel.app/",
+  },
+  {
+    id: "11",
+    title: "Dynamic CountDown",
+    image: CountDownImage,
+    description: "Projeto desenvolvido em ReactJS!!",
+    repo: "https://github.com/sergiowinkelstroter/dynamic-countdown",
+    demo: "https://dynamic-countdown.vercel.app/",
+  },
+  {
+    id: "12",
     title: "Movie List",
     image: MovieListImage,
     description:
@@ -108,7 +136,7 @@ export const ProjectsData = [
     demo: "https://movie-list-vert.vercel.app/",
   },
   {
-    id: "11",
+    id: "13",
     title: "Rocket Notes",
     image: RocketNotesImage,
     description: "App não funcional para criação de notas",
@@ -116,7 +144,7 @@ export const ProjectsData = [
     demo: "https://rocket-notes-winkelstrotersergio.vercel.app/",
   },
   {
-    id: "12",
+    id: "14",
     title: "Cadastro - Firebase",
     image: CadastroFirebaseImage,
     description:
@@ -125,7 +153,7 @@ export const ProjectsData = [
     demo: "https://cadastro-firebase.vercel.app/",
   },
   {
-    id: "13",
+    id: "15",
     title: "Blog",
     image: BlogAxiosImage,
     description:
@@ -134,7 +162,7 @@ export const ProjectsData = [
     demo: "https://blog-axios.vercel.app/",
   },
   {
-    id: "14",
+    id: "16",
     title: "Conversor de moedas",
     image: CurrencyConverterImage,
     description:
@@ -143,7 +171,7 @@ export const ProjectsData = [
     demo: "https://currency-converter-drab.vercel.app/",
   },
   {
-    id: "15",
+    id: "17",
     title: "Move It",
     image: MoveItImage,
     description:
@@ -152,7 +180,7 @@ export const ProjectsData = [
     demo: "https://mymoveit-tau.vercel.app/",
   },
   {
-    id: "16",
+    id: "18",
     title: "Pokedex",
     image: PokedexImage,
     description:
@@ -161,7 +189,7 @@ export const ProjectsData = [
     demo: "https://pokedex-liard-delta.vercel.app/",
   },
   {
-    id: "18",
+    id: "19",
     title: "Form MultiStep",
     image: FormMultiImage,
     description:
