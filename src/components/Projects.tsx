@@ -9,7 +9,7 @@ export const Projects = () => {
           key={project.id}
           title={project.title}
           image={project.image}
-          description={project.description}
+          technologies={project.technologies}
           demo={project.demo}
           repo={project.repo}
         />

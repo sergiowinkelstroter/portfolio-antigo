@@ -1,8 +1,10 @@
 import Image, { StaticImageData } from "next/image";
+import { ReactElement, useEffect, useState } from "react";
+import { IconType } from "react-icons";
 
 interface ProjectItemProps {
   title: string;
-  description: string;
+  technologies: string[];
   repo: string;
   image: StaticImageData;
   demo: string;
@@ -10,7 +12,7 @@ interface ProjectItemProps {
 
 export const ProjectItem = ({
   title,
-  description,
+  technologies,
   repo,
   image,
   demo,
@@ -23,7 +25,7 @@ export const ProjectItem = ({
       <h3 className="text-2xl mb-6">{title}</h3>
       <div className=" flex flex-col justify-center items-center gap-5">
         <Image src={image} className="rounded-lg" alt="" />
-        <p>{description}</p>
+        <div className="text-center">{technologies.join(" - ")}</div>
       </div>
       <div className="flex justify-center gap-2 mt-4 flex-col md:flex-row">
         <div className="bg-blue-600 w-40 h-10 p-2 rounded-lg text-white hover:bg-blue-900 hover:cursor-pointer text-center">

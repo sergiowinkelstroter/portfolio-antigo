@@ -10,8 +10,7 @@ const data = [
     id: "1",
     title: "Shopping Cart",
     image: ShoppingCartImage,
-    description:
-      "Projeto desenvolvido em ReactJS, com o objetivo de aprimorar meus conhecimentos em ContextAPI e useReducer ",
+    technologies: ["ReactJS", "TailwindCSS", "Radix"],
     repo: "https://github.com/sergiowinkelstroter/shopping-cart",
     demo: "https://shopping-cart-winkelstrotersergio.vercel.app/",
   },
@@ -19,8 +18,7 @@ const data = [
     id: "3",
     title: "Galeria de fotos",
     image: GaleriaImage,
-    description:
-      "Projeto desenvolvido em ReactJS, utlizando typescript e firebase.",
+    technologies: ["ReactJS", "TypeScript", "Firebase", "Styled-Components"],
     repo: "https://github.com/sergiowinkelstroter/gallery",
     demo: "https://gallery-tan-nu.vercel.app/",
   },
@@ -28,8 +26,7 @@ const data = [
     id: "15",
     title: "Chat App",
     image: ChatAppImage,
-    description:
-      "Um aplicativo de bate-papo full-stack usando ReactJs no front-end e Firebase para a tecnologia de back-end. ",
+    technologies: ["ReactJS", "Firebase", "TailwindCSS"],
     repo: "https://github.com/sergiowinkelstroter/chat-app",
 
     demo: "https://chat-app-winkelstrotersergio.vercel.app/",
@@ -50,7 +47,7 @@ export const SectionProjects = () => {
               key={project.id}
               title={project.title}
               image={project.image}
-              description={project.description}
+              technologies={project.technologies}
               demo={project.demo}
               repo={project.repo}
             />

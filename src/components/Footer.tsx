@@ -51,9 +51,6 @@ export const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="mx-auto mb-8">
-        <p className="text-sm">©All right reserved</p>
-      </div>
     </div>
   );
 };

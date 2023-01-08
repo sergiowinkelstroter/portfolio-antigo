@@ -12,7 +12,7 @@ export const About = () => {
           <h1>Sobre mim</h1>
         </div>
         <div className="md:grid md:grid-cols-2">
-          <div className="md:w-[80%] m-auto">
+          <div className="flex items-center justify-center">
             <Image
               src={perfilImg}
               alt=""
@@ -34,7 +34,7 @@ export const About = () => {
             <a
               download
               href="/CV.pdf"
-              className="bg-blue-600 w-40 h-10 p-2 rounded-lg text-white hover:bg-blue-900 hover:cursor-pointer"
+              className="bg-blue-600 w-40 h-10 p-2 rounded-lg text-white font-bold hover:bg-blue-900 hover:cursor-pointer"
             >
               Baixar curriculo
             </a>
