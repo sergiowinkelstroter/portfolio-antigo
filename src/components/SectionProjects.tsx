@@ -1,21 +1,25 @@
 import { ProjectItem } from "./ProjectItem";
 import GaleriaImage from "/public/assets/galeria.png";
 import ChatAppImage from "/public/assets/chatApp.png";
-import ShoppingCartImage from "/public/assets/home-shopping.png";
+import CoffeeDeliveryImage from "/public/assets/CapaCoffeeDelivery.png";
+import GitHubBlogImage from "/public/assets/GitHubCapa.png";
+import TaskListImage from "/public/assets/tasklistcapa.png";
+import IgniteTimerImage from "/public/assets/Ignite-timer.png";
 import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { v4 as uuid } from "uuid";
 
 const data = [
   {
-    id: "1",
-    title: "Shopping Cart",
-    image: ShoppingCartImage,
-    technologies: ["ReactJS", "TailwindCSS", "Radix"],
-    repo: "https://github.com/sergiowinkelstroter/shopping-cart",
-    demo: "https://shopping-cart-winkelstrotersergio.vercel.app/",
+    id: uuid(),
+    title: "Coffee Delivery",
+    image: CoffeeDeliveryImage,
+    technologies: ["ReactJS", "Styled-Components", "TypeScript"],
+    repo: "https://github.com/sergiowinkelstroter/coffee-delivery",
+    demo: "https://coffee-delivery-rho-ten.vercel.app/",
   },
   {
-    id: "3",
+    id: uuid(),
     title: "Galeria de fotos",
     image: GaleriaImage,
     technologies: ["ReactJS", "TypeScript", "Firebase", "Styled-Components"],
@@ -23,13 +27,38 @@ const data = [
     demo: "https://gallery-tan-nu.vercel.app/",
   },
   {
-    id: "15",
+    id: uuid(),
+    title: "Task List",
+    image: TaskListImage,
+    technologies: ["ReactJS", "CSS", "TypeScript"],
+    repo: "https://github.com/sergiowinkelstroter/ToDo-List",
+    demo: "https://todo-list-ignitee.vercel.app/",
+  },
+  {
+    id: uuid(),
     title: "Chat App",
     image: ChatAppImage,
     technologies: ["ReactJS", "Firebase", "TailwindCSS"],
     repo: "https://github.com/sergiowinkelstroter/chat-app",
 
     demo: "https://chat-app-winkelstrotersergio.vercel.app/",
+  },
+  {
+    id: uuid(),
+    title: "GitHub Blog",
+    image: GitHubBlogImage,
+    technologies: ["ReactJS", "TailwindCSS", "TypeScript"],
+    repo: "https://github.com/sergiowinkelstroter/github-blog",
+    demo: "https://github-blog-roan.vercel.app/",
+  },
+  {
+    id: uuid(),
+    title: "Ignite Timer",
+    image: IgniteTimerImage,
+    technologies: ["ReactJS", "TypeScript", "Styled-Components"],
+    repo: "https://github.com/sergiowinkelstroter/ignite-timer",
+
+    demo: "https://ignite-timer-gray.vercel.app/",
   },
 ];
 

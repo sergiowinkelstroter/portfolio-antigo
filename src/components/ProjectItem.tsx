@@ -1,6 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import { ReactElement, useEffect, useState } from "react";
-import { IconType } from "react-icons";
 
 interface ProjectItemProps {
   title: string;

@@ -20,6 +20,7 @@ import CountDownImage from "/public/assets/countdown-d.png";
 import GeradorNumeros from "/public/assets/gerador-numeros.png";
 import IgniteFeedImage from "/public/assets/ignite-feed.png";
 import TaskListImage from "/public/assets/tasklistcapa.png";
+import ShoppingCartImage from "/public/assets/home-shopping.png";
 
 import { v4 as uuid } from "uuid";
 
@@ -181,6 +182,14 @@ export const ProjectsData = [
   },
   {
     id: uuid(),
+    title: "Shopping Cart",
+    image: ShoppingCartImage,
+    technologies: ["ReactJS", "TailwindCSS", "Radix"],
+    repo: "https://github.com/sergiowinkelstroter/shopping-cart",
+    demo: "https://shopping-cart-winkelstrotersergio.vercel.app/",
+  },
+  {
+    id: uuid(),
     title: "Form MultiStep",
     image: FormMultiImage,
     technologies: ["ReactJS", "TypeScript"],
@@ -194,13 +203,5 @@ export const ProjectsData = [
     technologies: ["ReactJS", "CSS", "TypeScript"],
     repo: "https://github.com/sergiowinkelstroter/ignitee-feed",
     demo: "https://ignitee-feed.vercel.app/",
-  },
-  {
-    id: uuid(),
-    title: "Task List",
-    image: TaskListImage,
-    technologies: ["ReactJS", "CSS", "TypeScript"],
-    repo: "https://github.com/sergiowinkelstroter/ToDo-List",
-    demo: "https://todo-list-ignitee.vercel.app/",
   },
 ];
