@@ -27,14 +27,6 @@ import { v4 as uuid } from "uuid";
 export const ProjectsData = [
   {
     id: uuid(),
-    title: "Pearson Hardman LandingPage",
-    image: PearsonHardmanImage,
-    technologies: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/sergiowinkelstroter/FrontWeek-PearsonHardman",
-    demo: "https://pearson-hardman-winkelstrotersergio.vercel.app/",
-  },
-  {
-    id: uuid(),
     title: "Travel LandingPage",
     image: TravelImage,
     technologies: ["Next", "TailwindCSS"],

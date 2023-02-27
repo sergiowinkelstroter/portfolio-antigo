@@ -1,6 +1,6 @@
 import { ProjectItem } from "./ProjectItem";
 import GaleriaImage from "/public/assets/galeria.png";
-import ChatAppImage from "/public/assets/chatApp.png";
+import PearsonHardmanImage from "/public/assets/pearsonHardam.png";
 import CoffeeDeliveryImage from "/public/assets/CapaCoffeeDelivery.png";
 import GitHubBlogImage from "/public/assets/GitHubCapa.png";
 import TaskListImage from "/public/assets/tasklistcapa.png";
@@ -36,12 +36,11 @@ const data = [
   },
   {
     id: uuid(),
-    title: "Chat App",
-    image: ChatAppImage,
-    technologies: ["ReactJS", "Firebase", "TailwindCSS"],
-    repo: "https://github.com/sergiowinkelstroter/chat-app",
-
-    demo: "https://chat-app-winkelstrotersergio.vercel.app/",
+    title: "Pearson Hardman LandingPage",
+    image: PearsonHardmanImage,
+    technologies: ["HTML", "CSS", "JavaScript"],
+    repo: "https://github.com/sergiowinkelstroter/FrontWeek-PearsonHardman",
+    demo: "https://pearson-hardman-winkelstrotersergio.vercel.app/",
   },
   {
     id: uuid(),
@@ -83,7 +82,9 @@ export const SectionProjects = () => {
           ))}
         </div>
         <div className="flex items-center gap-2 m-auto hover:text-blue-600 transition-colors">
-          <Link href={"/projetos"}>Ver mais projetos</Link>
+          <Link href={"https://github.com/sergiowinkelstroter"} target="_blank">
+            Ver mais projetos
+          </Link>
           <AiOutlineArrowRight />
         </div>
       </div>
